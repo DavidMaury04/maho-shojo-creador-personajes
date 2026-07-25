@@ -6,21 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maho Shojo Creador Personajes</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+    <div id="overlay" class="overlay">
+        <div class="emerging-panel">
+            <div class="panel-upper">
+                <div class="panel-left">
+                    <div class="panel-left-content">
+                        <ul class="option-list">
+                            <li><button>Opcion 1</button></li>
+                            <li><button>Opcion 2</button></li>
+                            <li><button>Opcion 3</button></li>
+                            <li><button>Opcion 4</button></li>
+                            <li><button>Opcion 5</button></li>
+                            <li><button>Opcion 6</button></li>
+                            <li><button>Opcion 7</button></li>
+                            <li><button>Opcion 8</button></li>
+                            <li><button>Opcion 9</button></li>
+                            <li><button>Opcion 10</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel-right">
+                    <div class="panel-right-content">
+                        <h2>Nombre</h2>
+                        <p>Durante la creación de una magical girl, además de su Libreto de Arquetipo, habrá
+                            que escoger un Libreto de Amistad. Una vez seleccionado, el PJ tendrá al menos un
+                            Lazo con cada otro PJ con una etiqueta (ver cuadro más abajo en esta página). A con
+                            tinuación podrás ver que cada Libreto indica si existen Lazos adicionales o si dispone
+                            de alguna etiqueta especial, así como una serie de preguntas básicas que deberías
+                            responder para conocer el origen y el motivo de los Lazos que unen a los personajes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-lower">
+                <button id="closePanel">Cerrar</button>
+            </div>
+        </div>
+    </div>
 
     <div class="upper-container">
-        <ul>
-            <li><button>Opciones</button></li>
-            <li>Menu</li>
-        </ul>
+        <button>Opciones</button>
+        <h2>Menu</h2>
     </div>
 
     <hr class="upper-divider">
 
     <div class="lower-container">
-
         <div class="left-container">
             <ul class="option-list">
                 <li><button>Arquetipo</button></li>
@@ -32,22 +68,69 @@
 
         <div class="right-container">
             <div class="bio">
-                <h2>Datos Biográficos</h2>
-                <p>Nombre:</p>
-                <p>Estilo de Vida:</p>
-                <p>Edad:</p>
-                <p>Signo del Zodiaco/Elemento:</p>
-                <p>Grupo Sanguíneo:</p>
-                <p>Lo más importante de su mundo:</p>
+                <div class="bio-upper">
+                    <div class="bio-upper-left">
+                        <h2>Datos Biográficos</h2>
+                        <div class="info">
+                            <p>Nombre</p>
+                            <input type="text" id="name">
+                        </div>
 
-                <h2>Transformación</h2>
-                <p>Título:</p>
-                <p>Tema:</p>
-                <p>Color:</p>
-                <p>Talismán:</p>
+                        <div class="info">
+                            <p>Estilo de Vida</p>
+                            <input type="text" id="lifestyle">
+                        </div>
 
-                <h2>Datos Extras</h2>
-                <textarea></textarea>
+                        <div class="info">
+                            <p>Edad</p>
+                            <input type="text" id="age">
+                        </div>
+
+                        <div class="info">
+                            <p>Signo del Zodiaco/Elemento</p>
+                            <input type="text" id="zodiac-element">
+                        </div>
+
+                        <div class="info">
+                            <p>Grupo Sanguíneo</p>
+                            <input type="text" id="bloodtype">
+                        </div>
+
+                        <div class="info">
+                            <p>Lo más importante de su mundo</p>
+                            <input type="text" id="mostimportant">
+                        </div>
+                    </div>
+
+                    <div class="bio-upper-right">
+                        <h2>Transformación</h2>
+                        <div class="info">
+                            <p>Título</p>
+                            <input type="text" id="title">
+                        </div>
+
+                        <div class="info">
+                            <p>Tema</p>
+                            <input type="text" id="theme">
+                        </div>
+
+                        <div class="info">
+                            <p>Color</p>
+                            <input type="text" id="color">
+                        </div>
+
+                        <div class="info">
+                            <p>Talismán</p>
+                            <input type="text" id="talisman">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bio-lower">
+                    <h2>Datos Extras</h2>
+                    <textarea></textarea>
+                </div>
             </div>
 
             <div class="arquetipo">
@@ -134,35 +217,82 @@
 
             <div class="libreto-amistad">
                 <h2>Libreto de Amistad</h2>
+                <h3>Familia</h3>
+                <p>Lazos:</p>
+                <p>Etiquetas:</p>
+                <p>Preguntas:</p>
+                <h3>Movimiento 1</h3>
+                <h3>Movimiento 2</h3>
+                <h3>Movimiento 3</h3>
+                <h3>Movimiento 4</h3>
             </div>
 
             <div class="libreto-romance">
                 <h2>Libreto de Romance</h2>
+                <h3>Amor Perdido</h3>
+
+                <table class="tabla-libreto-romance">
+                    <thead>
+                        <tr>
+                            <th>Estado</th>
+                            <th>Nivel</th>
+                            <th>Efecto</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Superficial</td>
+                            <td>1-2</td>
+                            <td>Obtienes un Lazo etiquetado como Romance/Amor verdadero</td>
+                        </tr>
+
+                        <tr>
+                            <td>Asentada</td>
+                            <td>3-4</td>
+                            <td>Gasta 1 un Punto de Amistad cuando rememores tu amor para sumar +1
+                                al Movimiento Perder la Luz</td>
+                        </tr>
+
+                        <tr>
+                            <td>Profunda</td>
+                            <td>5</td>
+                            <td>Gasta 1 Punto de Amistad cuando rememores tu amor para ganar 1
+                                Punto de Luz</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <h3>Movimiento 1</h3>
+                <h3>Movimiento 2</h3>
+                <h3>Movimiento 3</h3>
             </div>
 
             <div class="lux-est">
                 <h2>¡Lux Est!</h2>
 
-                <div class="avances-menores">
-                    <h3>Avances Menores</h3>
-                    <ul>
-                        <li>Avance 1:</li>
-                        <li>Avance 2:</li>
-                        <li>Avance 3:</li>
-                        <li>Avance 4:</li>
-                        <li>Avance 5:</li>
-                    </ul>
-                </div>
+                <div class="avances">
+                    <div class="avances-menores">
+                        <h3>Avances Menores</h3>
+                        <ul>
+                            <li>Avance 1:</li>
+                            <li>Avance 2:</li>
+                            <li>Avance 3:</li>
+                            <li>Avance 4:</li>
+                            <li>Avance 5:</li>
+                        </ul>
+                    </div>
 
-                <div class="avances-mayores">
-                    <h3>Avances Mayores</h3>
-                    <ul>
-                        <li>Avance 1:</li>
-                        <li>Avance 2:</li>
-                        <li>Avance 3:</li>
-                        <li>Avance 4:</li>
-                        <li>Avance 5:</li>
-                    </ul>
+                    <div class="avances-mayores">
+                        <h3>Avances Mayores</h3>
+                        <ul>
+                            <li>Avance 1:</li>
+                            <li>Avance 2:</li>
+                            <li>Avance 3:</li>
+                            <li>Avance 4:</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -179,7 +309,6 @@
             </div>
 
             <div class="pacto">
-
                 <div class="pacto-info">
                     <h2>Oscuridad</h2>
                     <p>Nivel de Oscuridad:</p>
@@ -211,11 +340,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
-
 </body>
-
 </html>
