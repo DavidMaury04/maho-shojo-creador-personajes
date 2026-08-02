@@ -1,0 +1,252 @@
+{
+    "family": {
+        "name": "Familia",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "Mi familia es mi luz",
+                "description": "Cuando realizas un Movimiento Historias de la vida con al menos dos Lazos etiquetados como Familia eliminas 1 Punto de Oscuridad."
+            },
+            {
+                "name": "Yo protegeré a los míos",
+                "description": "Cuando alguien etiquetado como Familia esté en peligro suma +1 a los Movimientos que tengan como objetivo ayudarle."
+            },
+            {
+                "name": "Comida caliente y a la cama",
+                "description": "Al final de la sesión gana 1 Punto de Amistad."
+            },
+            {
+                "name": "Suéltale o te la cargas",
+                "description": "Si alguien de tu familia está en escena y amenazas a tu enemigo con algo relacionado con ellos gana 1 Punto de Luz. Máximo una vez por escena."
+            }
+        ]
+    },
+    "loyalty": {
+        "name": "Lealtad",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "nosyOne": {
+        "name": "Metomentodo",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "heartNexus": {
+        "name": "Nexo de corazones",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "pureFriendship": {
+        "name": "Pura amistad",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "rivarly": {
+        "name": "Rivalidad",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "senpai": {
+        "name": "Senpai",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "loner": {
+        "name": "Solitaria",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "sisterhood": {
+        "name": "Sororidad",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "sukeban": {
+        "name": "Sukeban (líder de pandilla)",
+        "description": "",
+        "bonds": "",
+        "labels": "",
+        "questions": "",
+        "movements": [
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    }
+}

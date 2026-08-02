@@ -1,0 +1,118 @@
+{
+    "champion": {
+        "name": "La Campeona",
+        "description": "",
+        "characteristics": [
+            {
+                "combative": 1,
+                "protective": 0,
+                "reflexive": -1,
+                "emotional": 1,
+                "devoted": 1
+            }
+        ],
+        "characteristicsRules": "Añade +1 a una característica.",
+        "archetypeAbilities": [
+            {
+                "name": "Elegida por los Guardianes",
+                "abilities": [
+                    {
+                        "rule": "Escoge 3 opciones:",
+                        "list": [
+                            "Por el poder de la Justicia: Cuando estás transformada ganas Castigo +1 y Azote +1.",
+                            "Elegancia Divina: Cuando estás transformada obtienes Ascensión +1.",
+                            "Susurros de los Guardianes: Arrastra +1 a tus tiradas de A la luz de la Verdad.",
+                            "Guiada por el corazón: Elige un Movimiento básico, puedes usar tu Característica de Entregada en lugar de la indicada cuando pides ayuda a la Luz de tu corazón.",
+                            "Salvadora: Arrastra +1 a tus tiradas del Movimiento Perder la Luz.",
+                            "Indómita: Cuando usas una Consecuencia absorbes 6 puntos en lugar de 4."
+                        ]
+                    },
+                    {
+                        "rule": "Obtienes también:",
+                        "list": [
+                            "Discurso de entrada: Te transformas y das un discurso sobre el poder de la Luz y las maldades de la Oscuridad. Consigues 1 Punto de Luz."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "luxHabituTable": {
+            "base": {
+                "base1": "Poder del Corazón A",
+                "base2": "Castigo +1",
+                "base3": "Resistente +1"
+            },
+            "super": {
+                "super1": "Castigo +1",
+                "super2": "Poder del Corazón ()",
+                "super3": "Ascensión +1"
+            },
+            "triumphant": {
+                "triumphant1": "Azote +1",
+                "triumphant2": "Armadura +1",
+                "triumphant3": "Poder del Corazón ()"
+            }
+        },
+        "luxEst": {
+            "minorAdvances": [
+                "Movimiento de Campeona",
+                "Mejorar una Característica (Máx. 2)",
+                "Consigue 3 opciones adicionales de Elegida por los Guardianes",
+                "Accedes a la forma Súper del Lux Habitu",
+                "Movimiento de tu Libreto de Amistad"
+            ],
+            "majorAdvances": [
+                "Movimiento de Campeona",
+                "Movimiento de tu Libreto de Amistad",
+                "Mejorar una Característica (Máx. 3)",
+                "Accedes a la forma Triunfante del Lux Habitu"
+            ]
+        },
+        "advanceMovements": [
+            {
+                "name": "La Luz nunca desaparece del corazón",
+                "description": "Si abrazas a otro PJ puedes gastar un Punto de Amistad para que ese PJ realice un Movimiento de Perder la Luz, adicionalmente suma +2 a la tirada."
+            },
+            {
+                "name": "Primera entre iguales",
+                "description": "Cuando seas la única magical girl que se enfrenta a un ser de Oscuridad y declares algo que te dé fuerzas, consigues un Punto de Luz."
+            },
+            {
+                "name": "Corazón de Luz",
+                "description": "Cuando seas la protagonista del Movimiento Historias de la vida puedes eliminar un Punto de Oscuridad, tuyo o de cualquiera con quien compartas el Movimiento, si obtienes un 10 o más en la tirada."
+            },
+            {
+                "name": "El bien siempre triunfa",
+                "description": "Cuando todos los PJ tengan la Consecuencia Derrotada y te niegues a aceptarlo:",
+                "resultList": [
+                    {
+                        "rule": "Tira+Emocional:",
+                        "result": [
+                            {
+                                "value": "10+",
+                                "effects": "Todos los PJ en la escena ganan 1 Punto de Luz y aplica el resultado 7-9."
+                            },
+                            {
+                                "value": "7-9",
+                                "effects": "Todos los PJ desmarcan la Consecuencia Derrotada y una Consecuencia adicional."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "El poder de la elegida",
+                "description": "Una vez por sesión puedes utilizar cualquiera de tus Poderes Corazón con el Movimiento Poder del Corazón sin importar tu Nivel de Poder, incluso si ya lo habías usado. Al finalizar el Movimiento, si el Poder del Corazón no estaba marcado no lo marques."
+            },
+            {
+                "name": "Jamás estoy sola",
+                "description": "Cuando digas en voz alta por qué un PJ con el que tengas un Lazo está presente en tu corazón, baja en 1 punto tu Medidor de Poder. A continuación, puedes dar uno de tus Puntos de Luz a ese PJ si tiene los mismos o menos que tú."
+            }
+        ]
+    },
+    "counselor": {},
+    "guardian": {},
+    "warrior": {},
+    "idol": {},
+    "healer": {}
+}

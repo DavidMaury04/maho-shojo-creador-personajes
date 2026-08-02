@@ -1,0 +1,222 @@
+{
+    "noLove": {},
+    "lostLove": {
+        "name": "Amor Perdido",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": "Obtienes un Lazo etiquetado como Romance/Amor verdadero"
+            },
+            "tier2": {
+                "effect": "Gasta 1 un Punto de Amistad cuando rememores tu amor para sumar +1 al Movimiento Perder la Luz"
+            },
+            "tier3": {
+                "effect": "Gasta 1 Punto de Amistad cuando rememores tu amor para ganar 1 Punto de Luz"
+            }
+        },
+        "movements": [
+            {
+                "name": "No sé si te he contado algo divertido que pasó hoy…",
+                "description": "Cuando relatas una vieja anécdota con tu romance o tienes una escena de intimidad con él suma 1 al Nivel de Romance."
+            },
+            {
+                "name": "Te has olvidado de aquella vez…",
+                "description": "Al final de la sesión responde a la mesa de juego si has olvidado o has podido superar tu romance. Si la respuesta es sí pierde 1 Nivel de Romance."
+            },
+            {
+                "name": "De la negación a la aceptación",
+                "description": "Desencadena este Movimiento tras una Ruptura relacionada con este Libreto o si tu relación es Profunda y decides cambiar de romance o abandonar este Libreto. Aplica uno de los siguientes efectos.",
+                "effects": [
+                    {
+                        "rule": "Si has sufrido una Ruptura debes tomar una de las siguientes decisiones:",
+                        "list": [
+                            "No puedes volver a escoger este romance con el mismo objetivo, realiza inmediatamente el Movimiento de Perder la Luz.",
+                            "Vuelve a escoger este romance con el mismo objetivo, gana un Nivel de Oscuridad."
+                        ]
+                    },
+                    {
+                        "rule": "Si has desencadenado este Movimiento porque la relación es Profunda, escoge:",
+                        "list": [
+                            "Elimina un Nivel de Oscuridad. Escoge un nuevo Libreto de Romance con Nivel de Romance 1.",
+                            "Trascender el romance, obtienes un punto de Lux est, elimina este Libreto de Romance, no puedes volver a escogerlo con ese personaje."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "trueLove":{
+        "name": "Amor Verdadero",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "conflictualRelationship": {
+        "name": "Relación conflictiva",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "unrequitedLove": {
+        "name": "Amor no correspondido",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "lonDistanceRelationship": {
+        "name": "Relación a distancia",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "forbiddenRelationship": {
+        "name": "Relación prohibida",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    },
+    "illusoryRomance": {
+        "name": "Romance ilusorio",
+        "description": "",
+        "efects": {
+            "tier1": {
+                "effect": ""
+            },
+            "tier2": {
+                "effect": ""
+            },
+            "tier3": {
+                "effect": ""
+            }
+        },
+        "movements":[
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            },
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    }
+}

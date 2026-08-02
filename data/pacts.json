@@ -1,0 +1,58 @@
+{
+    "daughtersLight": {
+        "name": "Hijas de la Luz",
+        "movements": {
+            "description": "",
+            "effects": [
+                "Al principio de cada sesión un Acompañante gana tantos Puntos de Amistad como número de PJ. Durante el transcurso de la sesión, cualquier PJ que utilice un Punto de Amistad comprueba el Libreto de Pacto, si el Acompañante tiene al menos 1 Punto de Amistad puede usarlo en su lugar.",
+                "Si el Lazo etiquetado como Acompañante se rompe como consecuencia de un Mal de Atropos, el PJ perderá sus poderes de magical girl. Debido a ello ya no podrá volver a usar su Talismán ni vestir su Lux Habitu, pasando a convertirse en un PNJ bajo el control del MC."
+            ]
+        },
+        "advantages": [
+            {
+                "name": "Lazos rojos de la amistad",
+                "description": "El Libreto de Amistad de cada PJ obtiene un Lazo adicional."
+            },
+            {
+                "name": "Shinyū",
+                "description": "Al principio de cada sesión cada PJ gana 1 Punto de Amistad."
+            },
+            {
+                "name": "La pureza de la juventud",
+                "description": "Al final de la sesión, antes de realizar el Movimiento Rechazar la Oscuridad, elimina un Punto de Oscuridad. A continuación, si tienes 0 Puntos de Oscuridad no desencadenas el Movimiento Rechazar la Oscuridad."
+            },
+            {
+                "name": "Corazones enredados",
+                "description": "Al principio de la sesión, cuando establezcas cuántos Puntos de Amistad tiene el Acompañante, un PJ puede entregar cualquier número de Puntos de Amistad de su Libreto de forma adicional. Un PJ no puede entregar su último Punto de Amistad de esta manera."
+            },
+            {
+                "name": "Colección de cromos",
+                "description": "El Acompañante tiene una serie de objetos y habilidades que pueden ser invocados para ayudar a una magical girl. Si pides ayuda al Acompañante di qué objeto o habilidad utiliza para ayudarte; a continuación, gasta 1 de sus Puntos de Amistad para obtener un +1 al siguiente Movimiento."
+            },
+            {
+                "name": "La amistad es lo más valioso del mundo",
+                "description": "Cada PJ obtiene un Movimiento adicional de su Libreto de Amistad."
+            },
+            {
+                "name": "Forma de combate del Acompañante",
+                "description": "El Acompañante tiene la capacidad de ayudar a los PJ mientras se enfrentan a la Oscuridad, asumiendo su forma de combate.\nEscoge una base:\nLuchador +1, Astuto +1, Escolta +1, Torpeza + 1.\nSuma +1 a una Característica a elegir entre Luchador, Astuto o Escolta\no\nLuchador +1, Astuto +1, Escolta +1, Torpeza + 2.\nSuma +1 a dos Características a elegir entre Luchador, Astuto o Escolta.\nA continuación, escoge un Tema igual que lo hiciste con los PJ.\nEn cualquier momento se puede solicitar la ayuda del Acompañante. Una vez realizada esta petición tiene 2 puntos cuando se desata la forma de combate. El Acompañante puede realizar cualquiera de las siguientes acciones (Cuando sus puntos lleguen a 0, el Acompañante desaparece o pierde sus poderes de forma temporal):",
+                "list": [
+                    "Un ataque conjunto con otro PJ. Suma su Luchador a tu siguiente Movimiento. Tras la tirada resta 1 punto.",
+                    "Ayudar a observar la situación o buscar un nuevo punto de vista. Suma su Astuto a tu siguiente Movimiento. Tras la tirada resta 1 punto.",
+                    "Tratar de proteger a otra persona o ayudar a defenderte de una situación complicada. Suma su Escolta a tu siguiente Movimiento. Tras la tirada resta 1 punto.",
+                    " Entorpecer o causarte algún problema. Resta su Torpeza a tu siguiente Movimiento. Tras la tirada suma 1 punto."
+                ]
+            }
+        ]
+    },
+    "championsJustice": {
+        "name": "Campeonas de la Justicia",
+        "movements": {},
+        "advantages": []
+    },
+    "GuardiansPuppets":{
+        "name": "Marionetas de los custodios",
+        "movements": {},
+        "advantages": []
+    }
+}
